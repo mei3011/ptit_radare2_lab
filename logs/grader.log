@@ -1,0 +1,34 @@
+[2024-03-10 19:29:52,338 - INFO : gradelab:521 - <module>() ] Begin logging
+[2024-03-10 19:29:53,922 - DEBUG : gradelab:341 - checkRunning() ] GetListRunningLab Command to execute is (docker ps)
+[2024-03-10 19:30:52,873 - DEBUG : gradelab:131 - InstDocsToHostD() ] path to work with is (/home/student/labtainer_xfer/ptit-radare2)
+[2024-03-10 19:30:52,873 - DEBUG : gradelab:132 - InstDocsToHostD() ] labname is (ptit-radare2)
+[2024-03-10 19:30:52,880 - DEBUG : gradelab:143 - InstDocsToHostD() ] filenames is ([])
+[2024-03-10 19:30:52,889 - DEBUG : gradelab:60 - CopyStudentArti() ] Command to execute is (docker exec ptit-radare2-igrader script -q -c "mkdir -p /home/instructor/.local" /dev/null)
+[2024-03-10 19:30:53,035 - DEBUG : gradelab:62 - CopyStudentArti() ] Result of subprocess.call CopyStudentArtifacts set labname is 0 (1=>FAILURE)
+[2024-03-10 19:30:53,035 - DEBUG : gradelab:68 - CopyStudentArti() ] Command to execute is (docker exec ptit-radare2-igrader script -q -c "echo ptit-radare2 > /home/instructor/.local/.labname" /dev/null)
+[2024-03-10 19:30:53,171 - DEBUG : gradelab:70 - CopyStudentArti() ] Result of subprocess.call CopyStudentArtifacts set labname is 0 (1=>FAILURE)
+[2024-03-10 19:30:53,171 - DEBUG : gradelab:99 - CopyStudentArti() ] name is /home/student/labtainer_xfer/ptit-radare2/AT1008.ptit-radare2.lab
+[2024-03-10 19:30:53,176 - DEBUG : gradelab:116 - CopyStudentArti() ] Command to execute is (docker cp "/home/student/labtainer_xfer/ptit-radare2/AT1008.ptit-radare2.lab" ptit-radare2-igrader:/home/instructor/AT1008.ptit-radare2.lab)
+[2024-03-10 19:30:53,537 - DEBUG : gradelab:118 - CopyStudentArti() ] Result of subprocess.call CopyStudentArtifacts copy zipfile (/home/student/labtainer_xfer/ptit-radare2/AT1008.ptit-radare2.lab) is 0 (1=>FAILURE)
+[2024-03-10 19:30:53,701 - DEBUG : gradelab:216 - copyAssessBin() ] Command to execute is (docker cp /tmp/assess_bin/bin  ptit-radare2-igrader:/home/instructor/.local/)
+[2024-03-10 19:30:54,050 - DEBUG : gradelab:226 - copyAssessBin() ] Command to execute is (docker cp /tmp/assess_bin/flask  ptit-radare2-igrader:/home/instructor/.local/)
+[2024-03-10 19:30:55,207 - DEBUG : gradelab:272 - diddleProfile() ] Command to execute is (docker exec ptit-radare2-igrader script -q -c "/home/instructor/.local/bin/rootprofile.sh" /dev/null)
+[2024-03-10 19:30:55,719 - DEBUG : gradelab:247 - copyChownGrades() ] Command to execute is (docker cp ptit-radare2-igrader:/home/instructor/ptit-radare2.grades.txt /home/student/labtainer_xfer/ptit-radare2)
+[2024-03-10 19:30:55,974 - DEBUG : gradelab:249 - copyChownGrades() ] Result of subprocess.Popen exec cp ptit-radare2.grades.txt file is 0
+[2024-03-10 19:31:47,126 - INFO : gradelab:521 - <module>() ] Begin logging
+[2024-03-10 19:31:48,811 - DEBUG : gradelab:341 - checkRunning() ] GetListRunningLab Command to execute is (docker ps)
+[2024-03-10 19:31:49,988 - DEBUG : gradelab:131 - InstDocsToHostD() ] path to work with is (/home/student/labtainer_xfer/ptit-radare2)
+[2024-03-10 19:31:49,988 - DEBUG : gradelab:132 - InstDocsToHostD() ] labname is (ptit-radare2)
+[2024-03-10 19:31:49,989 - DEBUG : gradelab:143 - InstDocsToHostD() ] filenames is ([])
+[2024-03-10 19:31:49,989 - DEBUG : gradelab:60 - CopyStudentArti() ] Command to execute is (docker exec ptit-radare2-igrader script -q -c "mkdir -p /home/instructor/.local" /dev/null)
+[2024-03-10 19:31:50,136 - DEBUG : gradelab:62 - CopyStudentArti() ] Result of subprocess.call CopyStudentArtifacts set labname is 0 (1=>FAILURE)
+[2024-03-10 19:31:50,136 - DEBUG : gradelab:68 - CopyStudentArti() ] Command to execute is (docker exec ptit-radare2-igrader script -q -c "echo ptit-radare2 > /home/instructor/.local/.labname" /dev/null)
+[2024-03-10 19:31:50,272 - DEBUG : gradelab:70 - CopyStudentArti() ] Result of subprocess.call CopyStudentArtifacts set labname is 0 (1=>FAILURE)
+[2024-03-10 19:31:50,273 - DEBUG : gradelab:99 - CopyStudentArti() ] name is /home/student/labtainer_xfer/ptit-radare2/AT1008.ptit-radare2.lab
+[2024-03-10 19:31:50,274 - DEBUG : gradelab:116 - CopyStudentArti() ] Command to execute is (docker cp "/home/student/labtainer_xfer/ptit-radare2/AT1008.ptit-radare2.lab" ptit-radare2-igrader:/home/instructor/AT1008.ptit-radare2.lab)
+[2024-03-10 19:31:50,686 - DEBUG : gradelab:118 - CopyStudentArti() ] Result of subprocess.call CopyStudentArtifacts copy zipfile (/home/student/labtainer_xfer/ptit-radare2/AT1008.ptit-radare2.lab) is 0 (1=>FAILURE)
+[2024-03-10 19:31:50,835 - DEBUG : gradelab:216 - copyAssessBin() ] Command to execute is (docker cp /tmp/assess_bin/bin  ptit-radare2-igrader:/home/instructor/.local/)
+[2024-03-10 19:31:51,246 - DEBUG : gradelab:226 - copyAssessBin() ] Command to execute is (docker cp /tmp/assess_bin/flask  ptit-radare2-igrader:/home/instructor/.local/)
+[2024-03-10 19:31:52,426 - DEBUG : gradelab:272 - diddleProfile() ] Command to execute is (docker exec ptit-radare2-igrader script -q -c "/home/instructor/.local/bin/rootprofile.sh" /dev/null)
+[2024-03-10 19:31:52,806 - DEBUG : gradelab:247 - copyChownGrades() ] Command to execute is (docker cp ptit-radare2-igrader:/home/instructor/ptit-radare2.grades.txt /home/student/labtainer_xfer/ptit-radare2)
+[2024-03-10 19:31:53,039 - DEBUG : gradelab:249 - copyChownGrades() ] Result of subprocess.Popen exec cp ptit-radare2.grades.txt file is 0
