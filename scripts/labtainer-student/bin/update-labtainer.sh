@@ -1,1 +1,0 @@
-/home/student/labtainer/trunk/setup_scripts/update-labtainer.sh
