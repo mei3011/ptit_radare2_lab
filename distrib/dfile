@@ -1,4 +1,0 @@
-FROM ptit-radare2.radare2.student
-ARG version
-LABEL version=3
-LABEL base=labtainers/labtainer.base2.739eee77f8d3
